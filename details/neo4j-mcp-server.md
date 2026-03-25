@@ -1,38 +1,43 @@
-# Neo4j MCP Server
-
 ## Overview
-The Neo4j MCP Server is a Model Context Protocol (MCP) server for the Neo4j graph database. It exposes Neo4j schema and supports read/write Cypher operations, along with a graph-database-backed memory layer intended for use with LLMs and agent frameworks. It is developed under the Neo4j Labs program and maintained by the Neo4j Field GenAI team and the community.
+
+Neo4j MCP server provides AI-powered access to the leading graph database platform with Cypher query language and enterprise graph analytics capabilities.
 
 ## Features
-- **MCP server for Neo4j**
-  - Implements a Model Context Protocol server interface for integrating Neo4j into MCP-compatible tools and agents.
 
-- **Neo4j graph database integration**
-  - Connects directly to a Neo4j graph database instance.
-  - Uses Neo4j’s native graph model for storing and retrieving structured data.
+- **Cypher Query Language**: Expressive graph query syntax
+- **ACID Compliance**: Full transactional support
+- **Graph Algorithms**: Built-in pathfinding and analytics
+- **Visualization**: Graph data visualization tools
+- **Enterprise Features**: Clustering, backup, security
 
-- **Schema exposure**
-  - Exposes the Neo4j database schema to clients.
-  - Enables tools and agents to inspect node labels, relationships, and properties for better context-aware querying.
+## Platform Capabilities
 
-- **Read Cypher operations**
-  - Supports executing Cypher read queries against Neo4j.
-  - Allows retrieval of graph data (nodes, relationships, paths, and properties) via MCP.
+Neo4j is the most widely adopted graph database, providing native graph storage and processing for connected data applications.
 
-- **Write Cypher operations**
-  - Supports executing Cypher write queries.
-  - Enables creating, updating, and deleting graph data through MCP.
+## Use Cases
 
-- **Graph-backed memory layer**
-  - Provides a memory layer built on top of Neo4j.
-  - Intended for storing and retrieving contextual information or long-term memory for LLM-based agents.
-  - Leverages graph structure for linking and organizing memories.
+- Fraud detection and analysis
+- Recommendation engines
+- Network and IT operations
+- Master data management
+- Identity and access management
 
-- **Neo4j Labs project**
-  - Developed under the Neo4j Labs program by the Neo4j Field GenAI team.
-  - Actively developed with new and experimental features.
-  - No formal SLAs or guarantees around backwards compatibility or deprecation.
+## Key Benefits
 
-## Pricing
-- No explicit pricing information is provided in the available content.
-- Distributed as source code on GitHub; see the repository’s `LICENSE.txt` for licensing and usage terms.
+- Mature, production-proven platform
+- Rich ecosystem and tooling
+- Graph data science library
+- Enterprise support available
+- Active community
+
+## MCP Integration
+
+Enables AI assistants to write Cypher queries, analyze graph patterns, run algorithms, visualize relationships, and optimize graph performance through conversational interfaces.
+
+## Graph Algorithms
+
+Includes library of graph algorithms for pathfinding, centrality, community detection, and similarity analysis.
+
+## Enterprise Adoption
+
+Widely used by Fortune 500 companies for mission-critical graph workloads requiring reliability and performance.

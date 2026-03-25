@@ -1,26 +1,19 @@
-# Meilisearch MCP Server
-
 ## Overview
-Meilisearch MCP Server is an open-source Model Context Protocol (MCP) server that connects large language model (LLM) interfaces and agents to a Meilisearch instance. It exposes Meilisearch’s full-text and semantic search capabilities so agents can index and query content programmatically.
 
-Source: https://github.com/meilisearch/meilisearch-mcp
+Meilisearch has built a bridge between their search engine and AI assistants using the Model Context Protocol (MCP), enabling developers to manage search infrastructure through natural language. The Meilisearch MCP server is completely open source.
 
 ## Features
-- **Model Context Protocol server** for Meilisearch, enabling LLM-based tools and agents to interact with a Meilisearch instance.
-- **Full-text search integration**: allows agents to query Meilisearch’s full-text search API.
-- **Semantic search integration**: supports using Meilisearch’s semantic search API.
-- **Indexing operations**: enables agents to index content into Meilisearch (e.g., adding/updating searchable data).
-- **Querying operations**: allows agents to retrieve and search indexed content via Meilisearch APIs.
-- **LLM interface support**: specifically designed to be used through LLM interfaces that implement MCP.
-- **Python package distribution**: available on PyPI as `meilisearch-mcp`.
-- **Docker support**: includes a `Dockerfile` for containerized deployment.
-- **Automated workflows & tests**: repository includes GitHub workflows and tests to support development and reliability.
 
-## Technical Details
-- **Project type**: MCP server implementation for Meilisearch.
-- **Ecosystem**: integrates with Meilisearch (self-hosted or cloud) and MCP-compatible LLM clients.
-- **Language**: implemented in Python (distributed via PyPI).
-- **License**: Open-source (license file included in the repository; specific license type not detailed in the provided content).
+- **Fast Search**: Lightning-fast typo-tolerant indexing and querying of documents
+- **Natural Language Management**: Manage search infrastructure through conversational AI
+- **AI Integration**: Integrates Meilisearch's search capabilities into AI-powered applications
+- **Advanced Operations**: Enable complex search operations through carefully designed tools
+- **Real-time Indexing**: Index and search documents in real-time
 
-## Pricing
-- **Pricing information**: Not specified in the provided content. The project is published as an open-source repository on GitHub; refer to the repository and license for usage terms.
+## Key Benefits
+
+When paired with advanced LLMs like Claude Sonnet, these tools enable natural conversations about complex search operations. The MCP implementation exposes Meilisearch's capabilities through tools that AI assistants can use to manage search infrastructure effectively.
+
+## Developer Experience
+
+Meilisearch is known for simplicity and developer-friendliness, allowing teams to implement powerful search in days, not months. The MCP server extends this philosophy to AI-powered workflows.

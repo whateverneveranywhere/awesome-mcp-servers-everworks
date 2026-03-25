@@ -1,26 +1,43 @@
-# Fly.io MCP Server
-
-**Category:** Cloud & DevOps MCP Servers  
-**Brand:** flyio
-
-An MCP (Model Context Protocol) server integration that connects Fly.io’s global application hosting and micro-VM infrastructure to AI developer tools via Pipedream.
-
-![Fly.io](https://fly.io/static/images/og-image.png)
-
 ## Overview
-The Fly.io MCP Server (via Pipedream) lets you link your Fly.io account with AI-powered development environments and assistants such as Cursor, Claude, and Windsurf. This enables AI tools to programmatically manage and interact with applications and infrastructure running on Fly.io.
+
+Fly.io MCP server provides AI-powered access to edge computing capabilities, enabling global application deployment on Firecracker VMs with low-latency edge regions.
 
 ## Features
-- **MCP-compatible server** for integrating Fly.io with AI tools that support the Model Context Protocol.
-- **Pipedream-based connection**: uses Pipedream’s MCP server as the bridge between Fly.io and AI tools.
-- **Fly.io account integration**: connects to your Fly.io account to access hosting and infrastructure resources.
-- **Global app hosting access**: exposes operations related to Fly.io’s global application hosting environment.
-- **Micro-VM infrastructure access**: enables interaction with Fly.io’s micro-VM–based infrastructure (e.g., app instances, services).
-- **AI tool interoperability**: designed to work with tools like Cursor, Claude, and Windsurf, allowing them to use Fly.io as an execution and deployment backend.
 
-## Pricing
-Pricing information is not provided in the available content.
+- **Global Edge Network**: Deploy apps close to users
+- **Firecracker VMs**: Fast, secure microVMs
+- **Edge Databases**: Distributed PostgreSQL and Redis
+- **Private Networking**: WireGuard-based mesh network
+- **Anycast Routing**: Automatic traffic routing
 
-## Links
-- **Integration page:** https://mcp.pipedream.com/app/fly_io
-- **Brand:** https://fly.io/
+## Platform Capabilities
+
+Fly.io runs applications on edge compute infrastructure globally, providing low-latency access by deploying close to users.
+
+## Use Cases
+
+- Globally distributed applications
+- Low-latency APIs
+- Edge computing workloads
+- Real-time applications
+- Multi-region databases
+
+## Key Benefits
+
+- Deploy in 30+ regions worldwide
+- Sub-100ms latency globally
+- Run full VMs, not just containers
+- Built-in private networking
+- Usage-based pricing
+
+## MCP Integration
+
+Enables AI assistants to deploy applications, configure edge regions, manage databases, set up networking, and monitor global deployments through conversational interfaces.
+
+## Technology
+
+Built on Firecracker, the same technology Amazon uses for AWS Lambda, providing secure isolated VMs with fast startup times.
+
+## Edge Architecture
+
+Designed for edge computing with distributed databases and anycast networking for optimal global performance.

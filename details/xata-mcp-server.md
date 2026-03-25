@@ -1,26 +1,43 @@
-# Xata MCP Server
+## Overview
 
-**Category:** Database / Messaging MCP Servers  
-**Brand:** Xata  
-**Source:** https://mcp.pipedream.com/app/xata
-
-## Description
-Xata MCP Server exposes Xata’s serverless, branchable, and searchable database service via the Model Context Protocol (MCP), making Xata’s developer‑focused data APIs available to MCP‑compatible clients.
+Xata MCP server provides AI-powered access to a serverless data platform that combines PostgreSQL, full-text search, file storage, and database branching.
 
 ## Features
-- MCP server endpoint for Xata: `https://mcp.pipedream.net/v2` (static URL for all clients)
-- Integrates Xata’s data APIs with MCP‑compatible chat or agent clients
-- Serverless database backend
-- Branchable database model
-- Searchable data capabilities
-- Scalable, consistent, and highly available database service
-- Developer‑focused database and data access experience
-- Authentication handled when adding the server to your application
-- Configuration guidance available via the Pipedream Configuration page
 
-## Usage
-- Add the MCP server URL (`https://mcp.pipedream.net/v2`) to your MCP‑compatible application or chat client.
-- Authenticate within your client when prompted.
+- **PostgreSQL Core**: Built on PostgreSQL with extensions
+- **Full-Text Search**: Integrated search without additional services
+- **File Attachments**: Store files alongside data
+- **Database Branching**: Git-like branches for development
+- **AI Integration**: Ask AI questions about your data
 
-## Pricing
-Pricing information is not provided in the available content.
+## Platform Capabilities
+
+Xata is a serverless data platform that extends PostgreSQL with search, file storage, and developer-friendly features like branching.
+
+## Use Cases
+
+- Applications requiring search functionality
+- Content management systems
+- E-commerce platforms
+- SaaS applications
+- Developer tools and platforms
+
+## Key Benefits
+
+- PostgreSQL compatibility
+- Integrated search eliminates separate search service
+- Branch databases for testing
+- Spreadsheet-like UI for data management
+- Generous free tier
+
+## MCP Integration
+
+Enables AI assistants to query databases, perform searches, manage schemas, create branches, and ask AI questions about data through conversational interfaces.
+
+## AI Features
+
+Includes Ask AI feature that lets you query your data using natural language, powered by integrated AI capabilities.
+
+## Developer Workflow
+
+Provides database branching for safe schema changes and a spreadsheet UI for non-technical team members to view and edit data.

@@ -1,45 +1,43 @@
-# Render MCP Server
-
 ## Overview
-Render MCP Server is an MCP (Model Context Protocol) server endpoint that lets MCP-compatible clients interact with applications and websites hosted on Render’s cloud platform. It is provided via Pipedream and exposes a static MCP server URL that can be integrated into different chat clients or MCP-enabled applications.
 
-- **Category:** Cloud & DevOps MCP Servers  
-- **Provider/Brand:** Render (via Pipedream)  
-- **Use Case:** Deploy, manage, and interact with Render-hosted apps and websites through MCP workflows
+Render MCP server provides AI-powered access to cloud platform capabilities for deploying and managing web services, static sites, databases, and scheduled jobs.
 
 ## Features
-- **Static MCP Server Endpoint**  
-  - Single URL used across all supported MCP clients:  
-    - `https://mcp.pipedream.net/v2`
-  - Centralizes configuration so you don’t need separate URLs per client.
 
-- **Client-Agnostic Integration**  
-  - Designed to be added to various MCP-compatible chat clients and applications.  
-  - Setup instructions vary by client; users select their client to see how to add the MCP server.
+- **Unified Platform**: Web services, static sites, databases, and cron jobs
+- **Git Integration**: Automatic deployments from GitHub/GitLab
+- **Free SSL**: Automatic HTTPS certificates
+- **Global CDN**: Built-in content delivery
+- **Private Networks**: Secure service communication
 
-- **Account-Based Authentication**  
-  - Authentication occurs when adding the server to an application, rather than using client-specific URLs.  
-  - Uses your connected accounts to authorize access to Render resources.
+## Platform Capabilities
 
-- **Configuration Workflow**  
-  - "Configure Render" flow to connect your Render account.  
-  - Once connected, the system checks and validates your account status ("Checking your account…").  
-  - Full configuration details are available via a dedicated configuration page.
+Render is a unified cloud platform for deploying and running all types of applications and services with simplicity and reliability.
 
-- **MCP Tooling Interface**  
-  - Exposes MCP tools ("Available tools") that can be discovered and used by the MCP client.  
-  - Tools are dynamically loaded ("Loading actions…", "Loading available tools…"), enabling the client to list and invoke Render-related actions once connected.
+## Use Cases
 
-- **Render Cloud Integration (Implied)**  
-  - Intended to work with Render’s platform for hosting apps and websites.  
-  - Enables MCP-based workflows to interact with infrastructure and deployments hosted on Render (e.g., apps, services, and sites), though specific actions are not enumerated in the provided content.
+- Deploying web applications
+- Hosting static sites and SPAs
+- Running background jobs
+- Managed PostgreSQL databases
+- Scheduled tasks and cron jobs
 
-## Setup
-1. **Connect your Render account** via the Pipedream interface for the Render MCP Server.  
-2. **Copy the MCP server URL:** `https://mcp.pipedream.net/v2`.  
-3. **Add the server to your MCP-compatible app or chat client** following that client’s specific instructions.  
-4. **Authenticate when prompted** so the server can access your Render resources.  
-5. **Use the available tools** exposed by the MCP server within your client to interact with Render.
+## Key Benefits
 
-## Pricing
-The provided content does not include any pricing or plan information for the Render MCP Server.
+- Simple, predictable pricing
+- Free tier for static sites
+- Automatic scaling
+- Zero-downtime deploys
+- Built-in DDoS protection
+
+## MCP Integration
+
+Enables AI assistants to deploy services, manage databases, configure cron jobs, set up domains, and monitor applications through conversational interfaces.
+
+## Target Audience
+
+Ideal for developers and teams looking for a Heroku alternative with better pricing and modern features.
+
+## Infrastructure
+
+Built on modern cloud infrastructure with focus on developer experience and operational simplicity.

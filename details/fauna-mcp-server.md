@@ -1,46 +1,43 @@
-# Fauna MCP Server
+## Overview
 
-The Fauna MCP Server exposes Fauna, a distributed serverless database that combines NoSQL flexibility with relational-style querying, to Model Context Protocol (MCP) clients via Pipedream.
-
-- **Name:** Fauna MCP Server  
-- **Category:** Database / Messaging MCP Servers  
-- **Provider / Brand:** Fauna (via Pipedream Connect)  
-- **Slug:** fauna-mcp-server  
-- **Tags:** database, serverless, cloud  
-- **Source URL:** https://mcp.pipedream.com/app/faunadb
+Fauna MCP server provides AI-powered access to serverless distributed database capabilities with global distribution, strong consistency, and native GraphQL support.
 
 ## Features
 
-- **Distributed serverless database access**  
-  - Connects MCP clients to Fauna, a globally distributed, serverless database.  
-  - No infrastructure management required on the client side.
+- **Global Distribution**: Data replicated globally
+- **ACID Transactions**: Strong consistency guarantees
+- **GraphQL Native**: Built-in GraphQL support
+- **Serverless**: No infrastructure to manage
+- **Multi-Model**: Document, relational, and graph data models
 
-- **Flexible data model (NoSQL-style)**  
-  - Supports flexible schema patterns typical of NoSQL systems.
+## Platform Capabilities
 
-- **Relational querying capabilities**  
-  - Provides querying capabilities similar to SQL/relational systems while retaining NoSQL flexibility.
+Fauna is a serverless distributed database that combines the flexibility of NoSQL with ACID transactions and global distribution.
 
-- **Static MCP server endpoint**  
-  - Single static MCP server URL usable across supported clients:  
-    - `https://mcp.pipedream.net/v2`
+## Use Cases
 
-- **Client-agnostic configuration**  
-  - The same URL works for every compatible MCP client.  
-  - Authentication occurs when you add the server to your specific application or chat client.
+- Serverless application backends
+- Jamstack and edge applications
+- Multi-region applications
+- E-commerce platforms
+- Real-time collaborative apps
 
-- **Configuration documentation**  
-  - Detailed setup instructions available via a dedicated configuration page (linked from the app page) for adding the server to different chat clients.
+## Key Benefits
 
-- **Hosted by Pipedream Connect**  
-  - MCP server is operated and exposed through Pipedream’s Connect infrastructure.
+- Zero operations overhead
+- Strong consistency across regions
+- Pay-per-request pricing
+- Built-in authentication
+- Native GraphQL and FQL query languages
 
-## Usage
+## MCP Integration
 
-- Use the static MCP URL (`https://mcp.pipedream.net/v2`) when configuring your MCP-compatible chat client or application.
-- Complete authentication during the add/connect flow in your client.
-- Refer to the configuration page for client-specific setup steps.
+Enables AI assistants to manage schemas, execute queries, configure security rules, and analyze data through conversational interfaces.
 
-## Pricing
+## Developer Experience
 
-- No pricing information is provided in the available content.
+Provides GraphQL and FQL (Fauna Query Language) for flexible data access, with client libraries for all major programming languages.
+
+## Serverless Architecture
+
+Designed for serverless and edge computing, with instant scaling and global low-latency access.

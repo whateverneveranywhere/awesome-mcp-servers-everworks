@@ -1,47 +1,31 @@
-# Directus MCP Server
+## Overview
 
-Open data platform for headless content exposed via the Model Context Protocol (MCP), allowing MCP-compatible clients to interact with Directus content and schema.
-
----
-
-## Basic Info
-- **Name:** Directus MCP Server  
-- **Category:** Content Management MCP Servers  
-- **Brand:** Directus  
-- **Source URL:** https://mcp.pipedream.com/app/directus  
-- **MCP Server URL:** `https://mcp.pipedream.net/v2`
-
----
-
-## Description
-An MCP server that connects MCP-enabled clients to Directus, exposing Directus’s headless content APIs and open data platform so clients can query and manage content and schema from within MCP-aware applications.
-
----
+Directus MCP server enables AI-powered content management through the Model Context Protocol, providing direct integration with Directus's GraphQL-powered headless CMS for managing structured content.
 
 ## Features
-- **MCP-compatible static endpoint**  
-  - Single static MCP server URL: `https://mcp.pipedream.net/v2`  
-  - Same URL usable across different MCP-compatible clients.
 
-- **Directus integration**  
-  - Bridges MCP clients with Directus’s open data platform.  
-  - Exposes Directus headless content APIs via MCP so tools can interact with content and schema.
+- **Content Management**: Create, read, update, and delete content entries
+- **Collection Management**: Manage content types and data models
+- **Asset Management**: Handle media and file uploads
+- **GraphQL Integration**: Leverage GraphQL for flexible data queries
+- **Role-Based Access**: Respect Directus permissions and user roles
 
-- **Client-agnostic setup**  
-  - Designed to work with multiple chat or MCP clients.  
-  - Authentication is performed when adding the server in each client, not via a client-specific URL.
+## Platform Capabilities
 
-- **Configuration guidance**  
-  - Documentation via a central configuration page (linked from the app) describing how to add the server to different clients.
+Directus is a GraphQL-powered headless CMS that makes it easy to manage content with a user-friendly interface. The MCP server extends these capabilities to AI assistants.
 
----
+## Use Cases
 
-## Usage
-1. Use the MCP server URL: `https://mcp.pipedream.net/v2`.  
-2. Add this URL to your MCP-compatible client’s configuration.  
-3. Authenticate within the client when prompted to connect to Directus.
+- Automated content creation and updates
+- Content migration and transformation
+- Asset organization and management
+- Multi-language content handling
+- Content workflow automation
 
----
+## When to Use Directus
 
-## Pricing
-Pricing information is not provided in the available content.
+Choose Directus if you want a GraphQL-powered headless CMS to manage content easily with full control over your data model and backend infrastructure.
+
+## Comparison
+
+Use Directus when you need a headless CMS with GraphQL support and easy content management, compared to Hasura (for fast GraphQL over PostgreSQL) or Apollo Server (for full schema control).
