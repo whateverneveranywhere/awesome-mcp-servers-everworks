@@ -63,7 +63,6 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [Game Server Mcp Implementations (8)](#game-server-mcp-implementations)
 - [GitHub Integration MCP Servers (2)](#github-integration-mcp-servers)
 - [IoT & Smart Home MCP Servers (3)](#iot--smart-home-mcp-servers)
-- [Mcp Server Directories Lists (1)](#mcp-server-directories-lists-1)
 - [Productivity & Business MCP Servers (2)](#productivity--business-mcp-servers)
 - [Search & Discovery Mcp Servers (30)](#search--discovery-mcp-servers)
 - [Security Attestation Mcp Servers (30)](#security-attestation-mcp-servers)
@@ -220,7 +219,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [MCP Middleware & Orchestration (30)](#mcp-middleware--orchestration-1)
 - [Mcp Middleware Orchestration (16)](#mcp-middleware-orchestration)
 - [MCP Server Directories & Lists (1)](#mcp-server-directories--lists-1)
-- [MCP Server Directories Lists (1)](#mcp-server-directories-lists-2)
+- [MCP Server Directories Lists (2)](#mcp-server-directories-lists-1)
 - [Media Processing MCP Servers (33)](#media-processing-mcp-servers-1)
 - [Media Processing MCP Servers (3)](#media-processing-mcp-servers-2)
 - [Messaging (3)](#messaging)
@@ -1826,10 +1825,6 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [home-assistant-mcp](https://github.com/liorfranko/home-assistant-mcp) - Home Assistant MCP server integrates Anthropic's Claude with Home Assistant, enabling AI agents to control smart home devices via natural language. Features device monitoring, automation, and conversational management of IoT systems. Suited for AI-driven smart home use cases, with focused Claude compatibility versus other Home Assistant MCP implementations. ([Read more](/details/home-assistant-mcp.md)) `Home Assistant` `Smart Home` `Mcp`
 - [Fibaro HC3](https://github.com/modelcontextprotocol/servers/tree/main/src/fibaro) - MCP server for Fibaro Home Center 3 smart home systems. Enables AI agents to control and monitor smart home devices including lights, sensors, and automation routines through the Fibaro ecosystem. ([Read more](/details/fibaro-hc3.md)) `Smart Home` `Fibaro` `Home Automation`
 - [lifx-lan-mcp](https://github.com/simon-duchastel/lifx-lan-mcp) - Enable AI agents to control LIFX lights over a local network using the Model Context Protocol. Provides local network control without cloud dependency. ([Read more](/details/lifx-lan-mcp.md)) `Smart Lights` `Lifx` `Local Network`
-
-## Mcp Server Directories Lists
-
-- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - A curated GitHub repository listing the best MCP servers, including top solutions, libraries, tools, and more for the Model Context Protocol ecosystem. It serves as a comprehensive directory for developers seeking MCP implementations. ([Read more](/details/awesome-mcp-servers.md)) `Awesome List` `Directory` `Open Source`
 
 ## Productivity & Business MCP Servers
 
@@ -4405,6 +4400,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 
 ## MCP Server Directories Lists
 
+- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - A curated list of the best MCP Servers, featuring top solutions, libraries, tools, and more. This GitHub repository serves as a comprehensive directory for MCP (Model Context Protocol) servers, useful for developers seeking MCP implementations. ([Read more](/details/awesome-mcp-servers.md)) `Awesome List` `Directory` `Open Source`
 - [Awesome MCP Servers 2](https://github.com/patriksimek/awesome-mcp-servers-2) - Curated directory of Model Context Protocol (MCP) servers categorized by function including File Systems, Version Control, Cloud Storage, Databases, Communication, Monitoring, Search & Web, Location Services, Marketing, Note Taking, Cloud Platforms, Workflow Automation, System Automation, Social Media, Finance, Research & Data, AI Services, Virtualization, Development Tools, Data Visualization, and Identity. Lists production-ready and experimental implementations to extend AI capabilities via standardized interactions. Includes tools like mcp-get CLI and Remote MCP for server management. ([Read more](/details/awesome-mcp-servers-2.md)) `Curated List` `Open Source` `Mcp Servers`
 
 ## Media Processing MCP Servers
