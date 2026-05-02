@@ -18,11 +18,11 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [Messaging Mcp Servers (33)](#messaging-mcp-servers)
 - [Business & Commerce Mcp Servers (36)](#business--commerce-mcp-servers)
 - [Developer Tools "Developer Tools"amp; IDE MCP Servers (118)](#developer-tools-developer-toolsamp-ide-mcp-servers)
-- [MCP Directories & Marketplaces (5)](#mcp-directories--marketplaces)
-- [MCP Directories & Registries (9)](#mcp-directories--registries)
+- [MCP Directories & Registries (10)](#mcp-directories--registries)
 - [Monitoring (37)](#monitoring)
 - [Project Management Mcp Servers (32)](#project-management-mcp-servers)
 - [Healthcare & Biotech MCP Servers (6)](#healthcare--biotech-mcp-servers)
+- [MCP Directories & Marketplaces (4)](#mcp-directories--marketplaces)
 - [Web Search Mcp Servers (41)](#web-search-mcp-servers)
 - [Cloud Storage (5)](#cloud-storage)
 - [MCP Directories & Registries (3)](#mcp-directories--registries-1)
@@ -61,7 +61,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [Developer Tools & IDE MCP Servers (21)](#developer-tools--ide-mcp-servers)
 - [E-commerce & Business MCP Servers (2)](#e-commerce--business-mcp-servers)
 - [Game Server Mcp Implementations (8)](#game-server-mcp-implementations)
-- [GitHub Integration MCP Servers (2)](#github-integration-mcp-servers)
+- [GitHub Integration MCP Servers (3)](#github-integration-mcp-servers)
 - [IoT & Smart Home MCP Servers (3)](#iot--smart-home-mcp-servers)
 - [Productivity & Business MCP Servers (2)](#productivity--business-mcp-servers)
 - [Search & Discovery Mcp Servers (30)](#search--discovery-mcp-servers)
@@ -70,7 +70,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [Social (6)](#social)
 - [Testing (1)](#testing)
 - [Travel & Transportation (26)](#travel--transportation)
-- [Version Control (23)](#version-control)
+- [Version Control (22)](#version-control)
 - [Web Scraping (4)](#web-scraping)
 - [Aggregators (19)](#aggregators)
 - [AI & Machine Learning (9)](#ai--machine-learning)
@@ -94,7 +94,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [Blockchain & Crypto Mcp Servers (11)](#blockchain--crypto-mcp-servers-1)
 - [Blockchain & Finance MCP Servers (12)](#blockchain--finance-mcp-servers)
 - [Blockchain Crypto Mcp Servers (30)](#blockchain-crypto-mcp-servers)
-- [Blockchain Crypto Mcp Servers (5)](#blockchain-crypto-mcp-servers-1)
+- [Blockchain Crypto Mcp Servers (6)](#blockchain-crypto-mcp-servers-1)
 - [Blockchain Crypto MCP Servers (7)](#blockchain-crypto-mcp-servers-2)
 - [Browser Automation (26)](#browser-automation)
 - [Business & Commerce MCP Servers (2)](#business--commerce-mcp-servers-1)
@@ -219,7 +219,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [MCP Middleware & Orchestration (30)](#mcp-middleware--orchestration-1)
 - [Mcp Middleware Orchestration (16)](#mcp-middleware-orchestration)
 - [MCP Server Directories & Lists (1)](#mcp-server-directories--lists-1)
-- [MCP Server Directories Lists (2)](#mcp-server-directories-lists-1)
+- [MCP Server Directories Lists (3)](#mcp-server-directories-lists-1)
 - [Media Processing MCP Servers (33)](#media-processing-mcp-servers-1)
 - [Media Processing MCP Servers (3)](#media-processing-mcp-servers-2)
 - [Messaging (3)](#messaging)
@@ -291,6 +291,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [Utilities System Tools (2)](#utilities-system-tools)
 - [Vector & Search MCP Servers (5)](#vector--search-mcp-servers)
 - [Vector Databases MCP Servers (1)](#vector-databases-mcp-servers)
+- [Version Control (1)](#version-control-1)
 - [Web (5)](#web)
 - [Web Search MCP Servers (11)](#web-search-mcp-servers-1)
 - [Web Search MCP Servers (40)](#web-search-mcp-servers-2)
@@ -995,14 +996,6 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [Useful MCP Servers](https://github.com/sidbharath/useful-mcp-servers) - A curated collection of easy-to-setup MCP servers designed for everyday usage, providing practical integrations for common tasks and workflows. ([Read more](/details/useful-mcp-servers.md)) `Collection` `Everyday Use` `Easy Setup`
 - [WorkOS AuthKit MCP](https://workos.com/docs/mcp) - A spec-compliant OAuth 2.1 authorization server for MCP that provides SSO-integrated access, scoped tokens, PKCE, consent flows, and client registration (supporting both CIMD and DCR) for enterprise MCP server deployments. ([Read more](/details/workos-authkit-mcp.md)) `Oauth` `Enterprise Auth` `Mcp`
 
-## MCP Directories & Marketplaces
-
-- [awesome-mcp-list](https://github.com/MobinX/awesome-mcp-list) - Curated GitHub repository serving as MCP server directory with categorized lists and GitHub search integration. Supports filtering by function like browser automation or art tools for AI agent discovery. MCP-focused list offering better specificity than broad GitHub awesome lists. ([Read more](/details/awesome-mcp-list.md)) `Directory` `Awesome List` `Discovery`
-- [Best of MCP Servers](https://github.com/tolkonepiu/best-of-mcp-servers) - Curated collection of top MCP servers on GitHub with quality filtering and leaderboards. Features community voting, category browsing, and search for agent tool discovery. Superior curated selection compared to general GitHub awesome lists for MCP server exploration. ([Read more](/details/best-of-mcp-servers.md)) `Directory` `Leaderboard` `Marketplace`
-- [Docker MCP Registry Official](https://github.com/docker/mcp-registry) - Official Docker Hub directory for containerized MCP servers, supporting search, ratings, stats, and one-click pulls for agent deployment. Features security scans and leaderboards by downloads. Container-focused registry ideal for scalable MCP discovery vs source-only GitHub lists. ([Read more](/details/docker-mcp-registry-official.md)) `Directory` `Registry` `Leaderboard`
-- [Glama MCP Registry](https://glama.ai/mcp/servers) - Largest MCP server marketplace and registry with over 19,000 servers, featuring search, filtering by category/language, usage leaderboards, and daily updates. Essential for discovering production-ready MCP servers for AI agents. Comprehensive scale and analytics surpass static GitHub awesome lists. ([Read more](/details/glama-mcp-registry.md)) `Directory` `Marketplace` `Leaderboard`
-- [MCP Registry](https://registry.modelcontextprotocol.io/) - Official central directory for Model Context Protocol servers with standardized API endpoints for production, staging, and local discovery. Provides reliable base URLs without advanced search but serves as the authoritative hub for MCP ecosystem navigation. Canonical registry outperforming community GitHub lists with protocol-official governance. ([Read more](/details/mcp-registry.md)) `Directory` `Registry` `Official`
-
 ## MCP Directories & Registries
 
 - [Awesome MCP Hardware](https://github.com/beriberikix/awesome-mcp-hardware) - Curated GitHub MCP server discovery tool focused on hardware/IoT servers, with category search and filtering for agent tool discovery. Features community updates, examples for embedded devices/robots. MCP-specific hardware registry vs npm's software packages. ([Read more](/details/awesome-mcp-hardware.md)) `Registry` `Discovery` `Awesome List`
@@ -1012,6 +1005,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [Portkey MCP Servers](https://portkey.ai/mcp-servers) - Online MCP server discovery tool with search/filter by category, integration guides for agent tools. Features dynamic updates. Comprehensive MCP registry vs npm. ([Read more](/details/portkey-mcp-servers.md)) `Registry` `Discovery` `Awesome List`
 - [All About AI MCP Servers](https://github.com/AllAboutAI-YT/all-about-ai-mcp-servers) - All About AI MCP Servers collection - a curated set of Model Context Protocol servers covering various AI-related tools and integrations. ([Read more](/details/all-about-ai-mcp-servers.md)) `Collection` `Curated` `Ai Tools`
 - [guMCP](https://gumloop.com/gumcp) - guMCP by Gumloop provides free, open-source, fully hosted MCP servers for seamless integration with any AI app. ([Read more](/details/gumcp.md)) `Open Source` `Hosted` `Free`
+- [MCP Playground Online MCP Registry](https://mcpplaygroundonline.com/mcp-registry) - The MCP Playground Online MCP Registry is a comprehensive directory featuring over 10,000 MCP servers, providing integrations for Claude, Cursor, and any MCP-compatible client. Each server offers tools, prompts, or resources that AI models can use, and users can test them instantly using the free MCP testing tool. ([Read more](/details/mcp-playground-online-mcp-registry.md)) `Directory` `Registry` `Mcp Servers`
 - [MCP Server Discovery Desktop App](https://github.com/Jeamee/mcp-server-discovery) - Desktop MCP server discovery tool with visual browsing, search/filter, one-click install for agent tools. Features management dashboard. Interactive MCP registry vs npm CLI. ([Read more](/details/mcp-server-discovery-desktop-app.md)) `Registry` `Discovery` `Awesome List`
 - [PulseMCP](https://pulsemcp.com) - PulseMCP is a registry for browsing hosted MCP tools and use cases, including news for trending MCP servers and apps. ([Read more](/details/pulsemcp.md)) `Registry`
 
@@ -1098,6 +1092,13 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [PubMed-MCP-Server](https://github.com/codingaslu/PubMed-MCP-Server) - Asynchronous MCP server for PubMed searches using BioPython Entrez, ideal for AI agents accessing biomedical literature. ([Read more](/details/pubmed-mcp-server.md)) `PubMed` `Biomedical` `Research`
 - [PubMed MCP (grll)](https://github.com/grll/pubmedmcp) - MCP server providing PubMed access for medical literature search, supporting AI-driven biomedical research. ([Read more](/details/pubmed-mcp-grll.md)) `PubMed` `Biomedical` `Medical`
 - [Simple PubMed MCP](https://github.com/andybrandt/mcp-simple-pubmed) - Minimalist MCP server for querying PubMed database, enabling easy access for medical AI agents. ([Read more](/details/simple-pubmed-mcp.md)) `PubMed` `Biomedical` `Literature`
+
+## MCP Directories & Marketplaces
+
+- [Best of MCP Servers](https://github.com/tolkonepiu/best-of-mcp-servers) - Curated collection of top MCP servers on GitHub with quality filtering and leaderboards. Features community voting, category browsing, and search for agent tool discovery. Superior curated selection compared to general GitHub awesome lists for MCP server exploration. ([Read more](/details/best-of-mcp-servers.md)) `Directory` `Leaderboard` `Marketplace`
+- [Docker MCP Registry Official](https://github.com/docker/mcp-registry) - Official Docker Hub directory for containerized MCP servers, supporting search, ratings, stats, and one-click pulls for agent deployment. Features security scans and leaderboards by downloads. Container-focused registry ideal for scalable MCP discovery vs source-only GitHub lists. ([Read more](/details/docker-mcp-registry-official.md)) `Directory` `Registry` `Leaderboard`
+- [Glama MCP Registry](https://glama.ai/mcp/servers) - Largest MCP server marketplace and registry with over 19,000 servers, featuring search, filtering by category/language, usage leaderboards, and daily updates. Essential for discovering production-ready MCP servers for AI agents. Comprehensive scale and analytics surpass static GitHub awesome lists. ([Read more](/details/glama-mcp-registry.md)) `Directory` `Marketplace` `Leaderboard`
+- [MCP Registry](https://registry.modelcontextprotocol.io/) - Official central directory for Model Context Protocol servers with standardized API endpoints for production, staging, and local discovery. Provides reliable base URLs without advanced search but serves as the authoritative hub for MCP ecosystem navigation. Canonical registry outperforming community GitHub lists with protocol-official governance. ([Read more](/details/mcp-registry.md)) `Directory` `Registry` `Official`
 
 ## Web Search Mcp Servers
 
@@ -1819,6 +1820,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 
 - [GitHub](https://github.com/github) - GitHub MCP Server enables AI agents to interact with GitHub repositories, issues, PRs via MCP. It supports features like repo cloning, issue creation, code search, and GraphQL queries. Use cases include automated code reviews, repo analysis, and CI/CD integration. Alternative to GitHub API wrappers with seamless MCP protocol support. ([Read more](/details/github.md)) `Git` `Repo Management` `Code Review`
 - [GitHub Enterprise MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/github-enterprise) - Model Context Protocol server for interacting with GitHub Enterprise. Provides enterprise-grade GitHub functionality for organizational AI workflows with on-premise deployment support. ([Read more](/details/github-enterprise-mcp.md)) `Github` `Enterprise` `On Premise`
+- [GitHub MCP Server (asifdotpy)](https://mcpservers.org/servers/asifdotpy/github-mcp-server-asifdotpy) - A Model Context Protocol (MCP) server for GitHub, providing tools for managing repositories, pull requests, branches, files, and secret scanning alerts. ([Read more](/details/github-mcp-server-asifdotpy.md)) `Github` `Mcp Server` `Api Integration`
 
 ## IoT & Smart Home MCP Servers
 
@@ -1953,7 +1955,6 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [costajohnt/oss-autopilot](https://github.com/costajohnt/oss-autopilot) - Open source contribution manager with PR tracking, issue discovery, CI diagnosis, maintainer drafting. CLI, MCP, Claude plugin. ([Read more](/details/costajohnt-oss-autopilot.md)) `Oss` `Contribution` `Multi Platform`
 - [ddukbg/github-enterprise-mcp](https://github.com/ddukbg/github-enterprise-mcp) - MCP server for GitHub Enterprise API integration. ([Read more](/details/ddukbg-github-enterprise-mcp.md)) `Github Enterprise` `Cloud`
 - [Git Tools MCP Server](https://github.com/cyanheads/git-mcp-server) - A Model Context Protocol (MCP) server to provide git tools for LLM Agents. ([Read more](/details/git-tools-mcp-server.md)) `Git` `Ai Agents`
-- [GitHub MCP Server](https://github.com/github/github-mcp-server) - GitHub's official MCP server for version control integration in cloud environments. ([Read more](/details/github-mcp-server.md)) `Cloud` `Go` `Official`
 - [GitLab MR MCP](https://github.com/kopfrechner/gitlab-mr-mcp) - Interact seamlessly with issues and merge requests of GitLab projects using MCP. ([Read more](/details/gitlab-mr-mcp.md)) `Open Source` `Gitlab` `Merge Requests`
 - [gitopia/gitopia-mcp-server](https://github.com/gitopia/gitopia-mcp-server) - Decentralized Git with on-chain governance, bounties, DAOs. MCP tools for repos, issues, PRs, labels, releases, bounties, DAO proposals. Auto-wallet, trust tiers. ([Read more](/details/gitopia-gitopia-mcp-server.md)) `Decentralized` `Git` `Multi Platform`
 - [JaviMaligno/mcp-server-bitbucket](https://github.com/JaviMaligno/mcp-server-bitbucket) - Bitbucket MCP server with 58 tools for repository management, PRs, pipelines, branches, commits, deployments, webhooks, tags. ([Read more](/details/javimaligno-mcp-server-bitbucket.md)) `Bitbucket` `Python`
@@ -2395,6 +2396,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [ATXP](https://github.com/atxp-dev/atxp) - Agent identity platform MCP server. Provides AI agents with USDC wallet on Base, @atxp.email inbox, phone number, and 100+ paid MCP tools including web search, image gen, SMS, voice calls, and 100+ LLM models. Self-registers without human login; $5 free credits. ([Read more](/details/atxp.md)) `Agent Identity` `Usdc Wallet` `Llm Models` `Self Register`
 - [CryptoIZ MCP](https://github.com/dadang11/cryptoiz-mcp) - AI-powered Solana DEX whale intelligence MCP v4.16.0 with 9 tools (7 paid + 2 free): smart money scanner, price-volume-whale divergence, accumulation/distribution scoring, BTC macro monitor, MTF BTC futures scalping. Pay-per-call via x402 ($0.01–$0.05 USDC). ([Read more](/details/cryptoiz-mcp.md)) `Solana Dex` `Whale Intelligence` `X402` `Scalping`
 - [Flash Payment System](https://github.com/ElromEvedElElyon/flash-payment-system) - First write-capable Bitcoin Runes MCP server with 12 tools for minting, transferring, batch-minting Runes, listing BITCOIN•USD•ONE, Chainlink Proof of Reserves, agent swarm coordination, and x402 payments. bUSD1 stablecoin 1:1 backed by Runes. ([Read more](/details/flash-payment-system.md)) `Bitcoin Runes` `Write Capable` `Stablecoin` `Open Source`
+- [Hive Intelligence](https://mcpshowcase.com/p/mcp-server-directory) - Hive Intelligence provides a comprehensive Model Context Protocol (MCP) server that gives AI agents native blockchain capabilities across the entire crypto ecosystem. The platform serves as 'the open standard that lets AI agents speak blockchain,' offering deep integration with leading AI platforms like Claude, ChatGPT, Google Gemini, and LangChain. It exposes over 10 major categories of blockchain intelligence tools, covering real-time market data, DeFi analytics, security assessments, NFT analytics, and more. ([Read more](/details/hive-intelligence.md)) `Blockchain` `Defi` `Analytics`
 - [Sats4AI MCP Server](https://github.com/cnghockey/sats4ai-mcp-server) - Bitcoin Lightning-powered AI tools marketplace MCP server with 20+ tools for image, video, audio, text generation, TTS (467 voices), web search, document conversion, and phone calls. Pay per use with sats, no signup required. ([Read more](/details/sats4ai-mcp-server.md)) `Bitcoin Lightning` `Ai Tools` `Pay Per Use` `Open Source`
 - [Sovereign Agent Chain](https://github.com/ElromEvedElElyon/sovereign-agent-chain) - Bitcoin-native AI agent marketplace with AGT meta-protocol on OP_RETURN. Provides 32 MCP tools including PSBT wallet bridge, cross-chain swaps (BTC/SOL/ETH/Runes), agent registry, reputation, escrow, and block scanner. 258 tests. ([Read more](/details/sovereign-agent-chain.md)) `Bitcoin Native` `Ai Agent Marketplace` `Cross Chain` `Open Source`
 
@@ -3029,7 +3031,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [Attio JS](https://github.com/d-stoll/attio-js) - A JavaScript/TypeScript SDK for Attio that doubles as an MCP server, enabling AI applications to invoke CRM-related operations. ([Read more](/details/attio-js.md)) `Attio` `Crm` `Typescript`
 - [docusign-test-js-sdk-public](https://github.com/MGDS01/docusign-test-js-sdk-public) - A TypeScript SDK that serves as an installable MCP server, exposing Docusign API methods for AI applications. ([Read more](/details/mgds01-docusign-test-js-sdk-public.md)) `Open Source` `Docusign` `Typescript`
 - [HubSpot MCP](https://developers.hubspot.com/docs/api/overview) - Official MCP server in public beta for querying HubSpot CRM data including contacts, deals, tickets, campaigns, and pipeline metrics in natural language. ([Read more](/details/hubspot-mcp.md)) `Read Only` `Beta` `Crm`
-- [HubSpot MCP Server](https://developers.hubspot.com/docs/api/crm) - HubSpot MCP Server provides read-only access to CRM data for AI-powered insights, reporting, summaries, trends, associations, and pipeline snapshots. Available in remote and local developer versions, it requires a HubSpot Developer account and excludes sensitive information. Ideal for teams using HubSpot for analysis without modification needs. ([Read more](/details/hubspot-mcp-server.md)) `Read Only` `Crm` `Marketing`
+- [HubSpot MCP Server](https://www.hubspot.com/) - Provides secure, read-only access to HubSpot CRM data for AI-powered insights and reporting. Enables natural language queries for deals, tickets, and CRM analytics without modifying data. ([Read more](/details/hubspot-mcp-server.md)) `Hubspot` `Crm` `Marketing`
 - [Hubspot-MCP](https://github.com/deezsecc/Hubspot-MCP) - Facilitates seamless integration of an MCP server with Hubspot databases for enhanced CRM capabilities. ([Read more](/details/deezsecc-hubspot-mcp.md)) `Open Source` `Crm` `Hubspot`
 - [JobNimbus MCP Server](https://github.com/clykins90/jobnimbus-mcp-server) - Facilitates AI-driven interactions with JobNimbus data via a Model Context Protocol server, enabling secure access and manipulation of contacts, jobs, tasks, products, workflows, and invoices. ([Read more](/details/jobnimbus-mcp-server.md)) `Jobnimbus` `Crm` `Project Management`
 - [leadpipe-mcp](https://github.com/enzoemir1/leadpipe-mcp) - AI-powered CRM and lead pipeline management with lead ingestion, AI enrichment, scoring (0-100), batch import, search, and export to HubSpot/Pipedrive/Sheets. 8 tools, 3 resources. ([Read more](/details/enzoemir1-leadpipe-mcp.md)) `Open Source` `Ai` `Lead Management`
@@ -3039,7 +3041,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [prospeo-mcp-server](https://github.com/Meerkats-Ai/prospeo-mcp-server) - Integrates with the Prospeo API to provide email finding and LinkedIn profile enrichment capabilities. ([Read more](/details/meerkats-ai-prospeo-mcp-server.md)) `Open Source` `Enrichment` `Linkedin`
 - [prospeo-mcp-server](https://github.com/Meerkats-Ai/prospeo-mcp-server) - Integrates with Prospeo API for email finding and LinkedIn profile enrichment to support lead generation and sales prospecting. ([Read more](/details/prospeo-mcp-server.md)) `Email` `Linkedin` `Open Source`
 - [rocketreach-mcp-server](https://github.com/Meerkats-Ai/rocketreach-mcp-server) - Integrates with RocketReach API to provide email, phone number finding, and company enrichment capabilities. ([Read more](/details/meerkats-ai-rocketreach-mcp-server.md)) `Open Source` `Enrichment` `Api`
-- [Salesforce MCP Connector](https://developer.salesforce.com/docs) - Third-party MCP server for Salesforce that exposes data and APIs via MCP standard, supporting create, update, delete operations on CRM records including custom objects. Uses user's Salesforce access rights for security. Supports Enterprise, Unlimited, and Developer editions with API access. ([Read more](/details/salesforce-mcp-connector.md)) `Read Write` `Crm` `Custom Objects`
+- [Salesforce MCP Connector](https://www.salesforce.com/) - Exposes Salesforce CRM data and APIs through the MCP standard, allowing AI to perform create, update, and delete operations on Salesforce records using existing user permissions and access rights. ([Read more](/details/salesforce-mcp-connector.md)) `Salesforce` `Crm` `Sales`
 - [shopops-mcp](https://github.com/enzoemir1/shopops-mcp) - E-commerce operations with inventory management, dynamic pricing, customer segmentation, sales analytics, product catalog, and order management. 11 tools, 4 resources. ([Read more](/details/enzoemir1-shopops-mcp.md)) `Open Source` `Ecommerce` `Analytics`
 - [SigParser](https://sigparser.com) - Email contact extraction, relationship warmth scoring, and CRM enrichment from email signatures and calendar data. MCP server providing AI-powered access to contact, company, and relationship data. Syncs to Salesforce, HubSpot, and Dynamics. ([Read more](/details/sigparser.md)) `Crm` `Email` `Ai Powered`
 - [SigParser MCP Server](https://sigparser.com/) - MCP server for email contact extraction, relationship warmth scoring, and CRM enrichment from email signatures and calendar data. Provides AI-powered access to contact, company, and relationship data. Syncs with Salesforce, HubSpot, and Dynamics for seamless CRM integration. ([Read more](/details/sigparser-mcp-server.md)) `Email` `Crm` `Enrichment`
@@ -4400,6 +4402,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 
 ## MCP Server Directories Lists
 
+- [Awesome MCP List](https://mcp.aibase.com/) - This is a continuously updated curated list of MCP servers, covering multiple categories such as browser control, art and culture, cloud platforms, command - line, communication, customer data platforms, databases, developer tools, data science tools, file systems, finance and fintech, games, knowledge and memory, location services, marketing, monitoring, search, and utilities. Each project comes with a GitHub link and the number of stars, making it easy for users to quickly understand and use. ([Read more](/details/awesome-mcp-list.md)) `Curated` `List` `Mcp Servers`
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - A curated list of the best MCP Servers, featuring top solutions, libraries, tools, and more. This GitHub repository serves as a comprehensive directory for MCP (Model Context Protocol) servers, useful for developers seeking MCP implementations. ([Read more](/details/awesome-mcp-servers.md)) `Awesome List` `Directory` `Open Source`
 - [Awesome MCP Servers 2](https://github.com/patriksimek/awesome-mcp-servers-2) - Curated directory of Model Context Protocol (MCP) servers categorized by function including File Systems, Version Control, Cloud Storage, Databases, Communication, Monitoring, Search & Web, Location Services, Marketing, Note Taking, Cloud Platforms, Workflow Automation, System Automation, Social Media, Finance, Research & Data, AI Services, Virtualization, Development Tools, Data Visualization, and Identity. Lists production-ready and experimental implementations to extend AI capabilities via standardized interactions. Includes tools like mcp-get CLI and Remote MCP for server management. ([Read more](/details/awesome-mcp-servers-2.md)) `Curated List` `Open Source` `Mcp Servers`
 
@@ -4893,7 +4896,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 ## SEO
 
 - [Ahrefs MCP](https://ahrefs.com/api) - Official MCP server for Ahrefs SEO data, enabling live keyword research, rank tracking, backlink analysis, and site audits directly in AI workspaces via natural language. ([Read more](/details/ahrefs-mcp.md)) `Read Only` `Official` `Seo`
-- [Ahrefs MCP Server](https://ahrefs.com/api) - Ahrefs MCP Server enables AI to perform keyword research and competitor analysis using live Ahrefs metrics via API v3. Requires Enterprise Plan. Useful for SEO teams plotting traffic timelines and identifying ranking gaps. ([Read more](/details/ahrefs-mcp-server.md)) `Seo` `Keyword Research` `Competitor Analysis`
+- [Ahrefs MCP Server](https://ahrefs.com/) - Provides AI-powered access to live Ahrefs SEO data, enabling keyword research, competitor analysis, and traffic insights through natural language queries. ([Read more](/details/ahrefs-mcp-server.md)) `Ahrefs` `Seo` `Marketing`
 - [Semrush MCP](https://developer.semrush.com/api/v3/) - Official Semrush MCP server covering Trends API for market analysis and Standard API for keyword, backlink, and domain analytics, providing competitive intelligence data. ([Read more](/details/semrush-mcp.md)) `Read Only` `Competitive Intel` `Oauth`
 - [SEO MCP](https://github.com/cnych/seo-mcp) - Leverage Ahrefs data for comprehensive SEO analysis, including backlink and keyword research, through a Model Control Protocol service. ([Read more](/details/seo-mcp.md)) `Ahrefs` `Seo` `Backlinks`
 
@@ -5123,6 +5126,10 @@ The public-facing website is based on the open-source [Directory Website Templat
 ## Vector Databases MCP Servers
 
 - [MCP Server Qdrant](https://github.com/qdrant/mcp-server-qdrant) - A Qdrant MCP server for vector database interactions. Apache-2 licensed. ([Read more](/details/mcp-server-qdrant.md)) `Open Source` `Vector Database` `Qdrant`
+
+## Version Control
+
+- [GitHub MCP Server](https://github.com/) - Enables AI models to interact with GitHub repositories, issues, pull requests, and code via the Model Context Protocol, providing context-aware coding assistance and lightweight automation. ([Read more](/details/github-mcp-server.md)) `Github` `Devops` `Automation`
 
 ## Web
 
