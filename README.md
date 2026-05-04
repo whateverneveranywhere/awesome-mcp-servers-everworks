@@ -79,7 +79,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [AI Agents MCP Servers (1)](#ai-agents-mcp-servers-1)
 - [AI Integration Mcp Servers (33)](#ai-integration-mcp-servers-1)
 - [AI Integration MCP Servers (63)](#ai-integration-mcp-servers-2)
-- [AI Integration MCP Servers (27)](#ai-integration-mcp-servers-3)
+- [AI Integration MCP Servers (28)](#ai-integration-mcp-servers-3)
 - [AI/ML (4)](#aiml)
 - [Analytics (4)](#analytics)
 - [Analytics & Business Intelligence (1)](#analytics--business-intelligence)
@@ -2130,6 +2130,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 ## AI Integration MCP Servers
 
 - [brainstorm-mcp](https://github.com/sprinab/brainstorm-mcp) - Multi-round AI brainstorming debates between multiple models like GPT, DeepSeek, Groq, Ollama. Pits LLMs against each other for diverse perspectives. ([Read more](/details/brainstorm-mcp.md)) `Open Source` `Multi Llm` `Brainstorming`
+- [MCP Code Crosscheck](https://mcpservers.org/servers/olaservo/mcp-code-crosscheck) - A server for bias-resistant AI code review using cross-model evaluation. ([Read more](/details/mcp-code-crosscheck.md)) `Ai Code Review` `Bias Resistant` `Cross Model`
 - [MCP DeepSeek Agent](https://github.com/smithery-ai/mcp-deepseek-agent) - Build an MCP client using DeepSeek locally with Ollama, enabling local deep reasoning capabilities through MCP tools. ([Read more](/details/mcp-deepseek-agent.md)) `Deepseek` `Ollama` `Local Llm`
 - [MCP HF Space](https://github.com/evalstate/mcp-hfspace) - MCP server to use HuggingFace Spaces for open-source image generation, chat, vision tasks, and more directly from Claude. ([Read more](/details/mcp-hf-space.md)) `Huggingface` `Spaces` `Ml`
 - [MCP Ollama Link](https://github.com/punkpeye/mcp-ollama-link) - Save your token limit by offloading compute to your local system. Supports Deepseek and other models available through local Ollama instances. ([Read more](/details/mcp-ollama-link.md)) `Ollama` `Local Llm` `Cost Optimization`
