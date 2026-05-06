@@ -84,8 +84,8 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [Analytics (4)](#analytics)
 - [Analytics & Business Intelligence (1)](#analytics--business-intelligence)
 - [API & OpenAPI MCP Servers (6)](#api--openapi-mcp-servers)
-- [API Integration Mcp Servers (57)](#api-integration-mcp-servers-1)
-- [API Integration MCP Servers (13)](#api-integration-mcp-servers-2)
+- [Api Integration Mcp Servers (14)](#api-integration-mcp-servers-1)
+- [API Integration Mcp Servers (57)](#api-integration-mcp-servers-2)
 - [API Integration MCP Servers (41)](#api-integration-mcp-servers-3)
 - [Api Mcp Servers (1)](#api-mcp-servers)
 - [Art & Culture (10)](#art--culture)
@@ -2185,6 +2185,23 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [Speakeasy](https://www.speakeasy.com/openapi-to-mcp) - Fully integrated MCP generator that creates MCP servers from OpenAPI definitions and integrates them into SDKs. Offers type-safe validation via Zod for security. Suited for teams using SDKs in the Speakeasy ecosystem, CLI + SDK in TypeScript, static generation. ([Read more](/details/speakeasy.md)) `Openapi` `Mcp Generation` `Sdk` `Typescript` `Static`
 - [Swagger MCP](https://github.com/search?q=swagger-mcp&type=repositories) - Swagger to MCP server for converting Swagger specs to MCP. Supports API specs conversion for AI agent integration. ([Read more](/details/swagger-mcp.md)) `Swagger` `Openapi` `Api Conversion` `Mcp Server`
 
+## Api Integration Mcp Servers
+
+- [0xdaef0f/job-searchoor](https://github.com/0xDAEF0F/job-searchoor) - An MCP server for searching job listings, with filters for date, keywords, remote work, and more, adhering to the MCP server protocol. ([Read more](/details/0xdaef0fjob-searchoor.md)) `Mcp` `Job Search` `Search` `Open Source`
+- [Abstract - IP Geolocation API MCP Server](https://mcp.pipedream.com/app/abstract_ip_geo) - An MCP server that exposes Abstract’s IP Geolocation API to MCP-compatible clients, allowing automated IP-based location lookups within MCP workflows. ([Read more](/details/abstract-ip-geolocation-api-mcp-server.md)) `ip-data` `Geolocation` `Api Integration`
+- [AddressZen MCP Server](https://mcp.pipedream.com/app/addresszen) - An MCP Server that connects to AddressZen for address autocomplete and verification capabilities inside MCP-compatible tools. ([Read more](/details/addresszen-mcp-server.md)) `address-verification` `Autocomplete` `Api Integration`
+- [API Market Server](https://github.com/Noveum/api-market-mcp-server) - A Model Context Protocol server that exposes over 200+ APIs from API.market as MCP resources, allowing large language models to discover and interact with various APIs. A robust and feature-rich MCP server for API aggregation. ([Read more](/details/api-market-server.md)) `Mcp` `Api Integration` `Ai Integration` `Open Source`
+- [API Ninjas MCP Server](https://mcp.pipedream.com/app/api_ninjas) - An MCP Server aggregating access to the API Ninjas collection of real-data APIs, simplifying how MCP agents consume multiple external data services. ([Read more](/details/api-ninjas-mcp-server.md)) `Api Integration` `Data Access` `Multi Service`
+- [app-store-connect-mcp-server](https://github.com/JoshuaRileyDev/app-store-connect-mcp-server) - An MCP server to communicate with the App Store Connect API for iOS Developers, enabling automation and data access. `Mcp` `Ios` `Api Integration` `Automation`
+- [AWS AppSync MCP Server](https://modelcontextprotocol.io/mcp/servers/aws-appsync-mcp-server) - MCP server for AWS AppSync that manages and operates backend GraphQL APIs, enabling assistants and tools to interact with AppSync resources programmatically. ([Read more](/details/aws-appsync-mcp-server.md)) `Aws` `Graphql` `Api Integration`
+- [Balldontlie Mcp](https://github.com/mikechao/balldontlie-mcp) - An MCP Server implementation that integrates the Balldontlie API, providing information about NBA, NFL, and MLB players, teams, and games. ([Read more](/details/balldontlie-mcp.md)) `Mcp` `Sports` `Api Integration` `Nba`
+- [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) - Search ArXiv research papers via this MCP server, providing academic search functionality in the MCP ecosystem. ([Read more](/details/blazickjparxiv-mcp-server.md)) `Mcp` `Arxiv` `Research` `Search`
+- [bruno-mcp](https://github.com/hungthai1401/bruno-mcp) - An MCP Server for running Bruno Collections, providing integration and automation capabilities for Model Context Protocol workflows. Directly relevant as an MCP Server implementation for API automation. ([Read more](/details/bruno-mcp.md)) `Mcp` `bruno` `Api Integration` `Automation` `Workflow`
+- [ckanthony/openapi-mcp](https://github.com/ckanthony/openapi-mcp) - Dockerized MCP server that enables AI agents to access any API with OpenAPI documentation through the MCP protocol. ([Read more](/details/ckanthonyopenapi-mcp.md)) `Mcp` `Openapi` `Api Integration` `Docker` `Ai Agent`
+- [Cloudmersive MCP Server](https://mcp.pipedream.com/app/cloudmersive) - MCP Server exposing Cloudmersive’s scalable cloud APIs (e.g., conversion, validation, security) to model-context aware applications. ([Read more](/details/cloudmersive-mcp-server.md)) `Api Integration` `Validation` `Document Conversion`
+- [LinkedIn MCP Server](https://github.com/Hritik003/linkedin-mcp-server) - MCP server for LinkedIn to seamlessly apply for jobs. ([Read more](/details/linkedin-mcp-server.md)) `Linkedin` `Jobs` `Mcp Server`
+- [mcp-openapi](https://github.com/saurav61091/mcp-openapi) - Turn any OpenAPI spec into callable MCP tools for Claude. Point at any OpenAPI 3.x spec and Claude can call every endpoint through natural language. Supports Bearer, API key, and Basic auth. ([Read more](/details/mcp-openapi.md)) `Openapi` `Api` `Mcp Server`
+
 ## API Integration Mcp Servers
 
 - [APIWeaver](https://github.com/modelcontextprotocol/servers/tree/main/src/apiweaver) - An MCP server that dynamically creates MCP servers from web API configurations, allowing easy integration of any REST API, GraphQL endpoint, or web service into an MCP-compatible tool. ([Read more](/details/apiweaver.md)) `Dynamic Integration` `Rest Api` `Graphql`
@@ -2244,22 +2261,6 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [Twitter MCP Server (adhikasp)](https://github.com/adhikasp/mcp-twittter) - A Model Context Protocol server for interacting with Twitter/X, enabling AI assistants to post tweets and engage with Twitter's social platform programmatically. ([Read more](/details/twitter-mcp-server-adhikasp.md)) `Twitter` `Social Media` `Llm`
 - [webhook-tester-mcp](https://github.com/alimo7amed93/webhook-tester-mcp) - A FastMCP-based server for interacting with webhook-test.com. Enables users to create, retrieve, and delete webhooks locally using Claude. ([Read more](/details/webhook-tester-mcp.md)) `Webhooks` `Testing` `Cloud`
 - [WordPress MCP Server](https://github.com/stefans71/wordpress-mcp) - MCP server that automates interactions with WordPress. Enables AI assistants to create posts, manage content, update WordPress configurations, and interact with the WordPress ecosystem through the Model Context Protocol. ([Read more](/details/wordpress-mcp-server.md)) `Wordpress` `Cms` `Automation`
-
-## API Integration MCP Servers
-
-- [0xdaef0f/job-searchoor](https://github.com/0xDAEF0F/job-searchoor) - An MCP server for searching job listings, with filters for date, keywords, remote work, and more, adhering to the MCP server protocol. ([Read more](/details/0xdaef0fjob-searchoor.md)) `Mcp` `Job Search` `Search` `Open Source`
-- [Abstract - IP Geolocation API MCP Server](https://mcp.pipedream.com/app/abstract_ip_geo) - An MCP server that exposes Abstract’s IP Geolocation API to MCP-compatible clients, allowing automated IP-based location lookups within MCP workflows. ([Read more](/details/abstract-ip-geolocation-api-mcp-server.md)) `ip-data` `Geolocation` `Api Integration`
-- [AddressZen MCP Server](https://mcp.pipedream.com/app/addresszen) - An MCP Server that connects to AddressZen for address autocomplete and verification capabilities inside MCP-compatible tools. ([Read more](/details/addresszen-mcp-server.md)) `address-verification` `Autocomplete` `Api Integration`
-- [API Market Server](https://github.com/Noveum/api-market-mcp-server) - A Model Context Protocol server that exposes over 200+ APIs from API.market as MCP resources, allowing large language models to discover and interact with various APIs. A robust and feature-rich MCP server for API aggregation. ([Read more](/details/api-market-server.md)) `Mcp` `Api Integration` `Ai Integration` `Open Source`
-- [API Ninjas MCP Server](https://mcp.pipedream.com/app/api_ninjas) - An MCP Server aggregating access to the API Ninjas collection of real-data APIs, simplifying how MCP agents consume multiple external data services. ([Read more](/details/api-ninjas-mcp-server.md)) `Api Integration` `Data Access` `Multi Service`
-- [app-store-connect-mcp-server](https://github.com/JoshuaRileyDev/app-store-connect-mcp-server) - An MCP server to communicate with the App Store Connect API for iOS Developers, enabling automation and data access. `Mcp` `Ios` `Api Integration` `Automation`
-- [AWS AppSync MCP Server](https://modelcontextprotocol.io/mcp/servers/aws-appsync-mcp-server) - MCP server for AWS AppSync that manages and operates backend GraphQL APIs, enabling assistants and tools to interact with AppSync resources programmatically. ([Read more](/details/aws-appsync-mcp-server.md)) `Aws` `Graphql` `Api Integration`
-- [Balldontlie Mcp](https://github.com/mikechao/balldontlie-mcp) - An MCP Server implementation that integrates the Balldontlie API, providing information about NBA, NFL, and MLB players, teams, and games. ([Read more](/details/balldontlie-mcp.md)) `Mcp` `Sports` `Api Integration` `Nba`
-- [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) - Search ArXiv research papers via this MCP server, providing academic search functionality in the MCP ecosystem. ([Read more](/details/blazickjparxiv-mcp-server.md)) `Mcp` `Arxiv` `Research` `Search`
-- [bruno-mcp](https://github.com/hungthai1401/bruno-mcp) - An MCP Server for running Bruno Collections, providing integration and automation capabilities for Model Context Protocol workflows. Directly relevant as an MCP Server implementation for API automation. ([Read more](/details/bruno-mcp.md)) `Mcp` `bruno` `Api Integration` `Automation` `Workflow`
-- [ckanthony/openapi-mcp](https://github.com/ckanthony/openapi-mcp) - Dockerized MCP server that enables AI agents to access any API with OpenAPI documentation through the MCP protocol. ([Read more](/details/ckanthonyopenapi-mcp.md)) `Mcp` `Openapi` `Api Integration` `Docker` `Ai Agent`
-- [Cloudmersive MCP Server](https://mcp.pipedream.com/app/cloudmersive) - MCP Server exposing Cloudmersive’s scalable cloud APIs (e.g., conversion, validation, security) to model-context aware applications. ([Read more](/details/cloudmersive-mcp-server.md)) `Api Integration` `Validation` `Document Conversion`
-- [LinkedIn MCP Server](https://github.com/Hritik003/linkedin-mcp-server) - MCP server for LinkedIn to seamlessly apply for jobs. ([Read more](/details/linkedin-mcp-server.md)) `Linkedin` `Jobs` `Mcp Server`
 
 ## API Integration MCP Servers
 
